@@ -1,0 +1,9 @@
+__pycache__/
+*.py[oc]
+.venv/
+# network weights are distributed as release assets (download_weights.sh)
+weights/*.npz
+# training outputs
+training/weights/
+training/logs/
+submission*.csv
