@@ -10,6 +10,12 @@ The task: decode the [[18,4,4]] qLDPC code of [Wang et al. (2026)](https://doi.o
 | Decode time for the 200,000 test shots | **~1.5 s** on one NVIDIA B200 |
 | Final placement | **1st** |
 
+## Video
+
+A short explanation of the solution, presented to the judges:
+
+[![QEC Decoder Hackathon - Superposed Devs Unobserved](https://img.youtube.com/vi/Pm7dpdKC4qc/hqdefault.jpg)](https://youtu.be/Pm7dpdKC4qc)
+
 ## The method
 
 `decode()` combines two decoders, both written from scratch:
